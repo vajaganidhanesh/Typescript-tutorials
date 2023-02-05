@@ -1,0 +1,11 @@
+{
+  "name": "typescript-tutorials",
+  "version": "1.0.0",
+  "description": "typescript tutorials",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "dhanesh",
+  "license": "ISC"
+}
