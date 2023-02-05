@@ -36,3 +36,18 @@ if(price){
 else{
     console.log(`Name = ${firstName}\n`);
 }
+
+
+// array formation in typescript
+// union of types and by meta character
+
+let arr1:number[] = [1,2,3,4,5]
+let arr2:number[] | string[] = ['dhanesh']
+var arr3:any[];
+arr3 = ['d','h','a','n','e','s','h'];
+
+for (let index = 0; index < arr3.length; index++) {
+    const element = arr3[index];
+    console.table(element);
+    
+}

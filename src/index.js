@@ -29,3 +29,13 @@ if (price) {
 else {
     console.log("Name = ".concat(firstName, "\n"));
 }
+// array formation in typescript
+// union of types and by meta character
+var arr1 = [1, 2, 3, 4, 5];
+var arr2 = ['dhanesh'];
+var arr3;
+arr3 = ['d', 'h', 'a', 'n', 'e', 's', 'h'];
+for (var index = 0; index < arr3.length; index++) {
+    var element = arr3[index];
+    console.table(element);
+}
