@@ -18,5 +18,4 @@ if(number.match(/\+91[0-9]{10}/)){
 }
 else{
     console.log("Invalid number");
-    
 }
