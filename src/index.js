@@ -15,8 +15,17 @@ if (number.match(/\+91[0-9]{10}/)) {
 else {
     console.log("Invalid number");
 }
-// conditon based variables or union of types
+// conditon based variables or union of typescript
 // we can select mutiple datatypes as variable types
 var nameval = 'er';
 nameval = 32;
 console.log(nameval);
+// Example with undefined union of typescript
+var firstName = "samsung Tv";
+var price;
+if (price) {
+    console.log("Name = ".concat(firstName, "\nPrice = ").concat(price));
+}
+else {
+    console.log("Name = ".concat(firstName, "\n"));
+}

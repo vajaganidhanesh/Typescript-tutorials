@@ -21,9 +21,18 @@ else{
     console.log("Invalid number");
 }
 
-// conditon based variables or union of types
+// conditon based variables or union of typescript
 // we can select mutiple datatypes as variable types
 var nameval:string | Number = 'er'
 nameval = 32
-
 console.log(nameval);
+
+// Example with undefined union of typescript
+var firstName:string ="samsung Tv"
+var price:Number|undefined
+if(price){
+    console.log(`Name = ${firstName}\nPrice = ${price}`);
+}
+else{
+    console.log(`Name = ${firstName}\n`);
+}
