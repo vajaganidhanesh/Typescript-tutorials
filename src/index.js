@@ -39,3 +39,7 @@ for (var index = 0; index < arr3.length; index++) {
     var element = arr3[index];
     console.table(element);
 }
+// Array declaration by using constructor
+var arr4 = new Array();
+arr4 = [1, 3, 4, 5, 6, "as"];
+console.log(arr4);

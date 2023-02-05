@@ -51,3 +51,8 @@ for (let index = 0; index < arr3.length; index++) {
     console.table(element);
     
 }
+
+// Array declaration by using constructor
+var arr4:any[] = new Array()
+arr4 = [1,3,4,5,6,"as"]
+console.log(arr4);
