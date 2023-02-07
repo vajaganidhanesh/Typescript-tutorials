@@ -22,3 +22,8 @@ var students1 = [
     { Values: 43 }
 ];
 console.log(students1[0].Values);
+var date = new Date();
+console.log(date.toLocaleDateString());
+// let maps:Map<any,any> = new Map();
+// maps.set('val1',21)
+// console.log(maps);

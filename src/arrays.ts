@@ -27,3 +27,11 @@ let students1 : [{Values:Number},{Values:Number}] = [
 ]
 
 console.log(students1[0].Values);
+
+let date:Date = new Date();
+console.log(date.toLocaleDateString());
+
+// let maps:Map<any,any> = new Map();
+// maps.set('val1',21)
+
+// console.log(maps);
