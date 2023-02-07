@@ -11,3 +11,14 @@ var TvNumber = {
     PriceCompany: 23000
 };
 console.log(TvNumber.Company);
+// storing objects of arrays
+var students = [
+    { "Name": "dhanesh", "age": 23 },
+    { "Name": "vajagani", "age": 24 }
+];
+// storing array of objects
+var students1 = [
+    { Values: 32 },
+    { Values: 43 }
+];
+console.log(students1[0].Values);

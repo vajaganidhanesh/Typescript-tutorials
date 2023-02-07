@@ -13,3 +13,17 @@ let TvNumber:{Company:string | number,PriceCompany:Number} = {
     PriceCompany:23000
 }
 console.log(TvNumber.Company)
+
+// storing objects of arrays
+let students:{Name:string, age:number}[]=[
+  {"Name":"dhanesh","age":23},
+  {"Name":"vajagani","age":24}
+]
+
+// storing array of objects
+let students1 : [{Values:Number},{Values:Number}] = [
+  {Values:32},
+  {Values:43}
+]
+
+console.log(students1[0].Values);
