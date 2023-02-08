@@ -12,7 +12,7 @@ function newFunction(): number {
     return element;
 }
 
-console.log(newFunction());
+// console.log(newFunction());
 
 interface product{
     Name:string;
@@ -20,14 +20,30 @@ interface product{
     stock?:boolean;
     print():void
 }
-
 const TV1:product={
     Name:'tv',
     price1:34999,
     stock:true,
     print:function (){
-        console.log(`Name ${this.Name}\n price ${this.price1}`);
+        // console.log(`Name ${this.Name}\n price ${this.price1}`);
     }
 }
 
 TV1.print()
+
+interface feature1 {
+    adding:number
+    subtracting:number
+}
+
+interface feature2 extends feature1{
+    multiplication : number;
+    correctStmt : true;
+}
+
+let calculation:feature2 = {
+    adding : 5,
+    subtracting : 7,
+    multiplication : 5,
+    correctStmt : true
+}
