@@ -47,3 +47,31 @@ let calculation:feature2 = {
     multiplication : 5,
     correctStmt : true
 }
+
+let users = [
+    {
+      name: "John Doe",
+      age: 17
+    },
+    {
+      name: "Elon Doe",
+      age: 27
+    },
+    {
+      name: "Alex Doe",
+      age: 14
+    }
+  ];
+
+  users.sort((a,b)=>{
+    if(a.name > b.name){
+        return 1
+    }
+    if(a.name < b.name){
+        return -1
+    }
+    return 0
+  })
+
+  console.log(users);
+  

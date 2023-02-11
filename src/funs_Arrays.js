@@ -10,13 +10,42 @@ function newFunction() {
     }
     return element;
 }
-console.log(newFunction());
 var TV1 = {
     Name: 'tv',
     price1: 34999,
     stock: true,
     print: function () {
-        console.log("Name ".concat(this.Name, "\n price ").concat(this.price1));
+        // console.log(`Name ${this.Name}\n price ${this.price1}`);
     }
 };
 TV1.print();
+var calculation = {
+    adding: 5,
+    subtracting: 7,
+    multiplication: 5,
+    correctStmt: true
+};
+var users = [
+    {
+        name: "John Doe",
+        age: 17
+    },
+    {
+        name: "Elon Doe",
+        age: 27
+    },
+    {
+        name: "Alex Doe",
+        age: 14
+    }
+];
+users.sort(function (a, b) {
+    if (a.name > b.name) {
+        return 1;
+    }
+    if (a.name < b.name) {
+        return -1;
+    }
+    return 0;
+});
+console.log(users);

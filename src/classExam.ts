@@ -22,3 +22,6 @@ else{    secondClass = class{
     }
 }
 
+// string convertors 
+var num = "23";
+console.log(parseInt(num));
