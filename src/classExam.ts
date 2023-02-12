@@ -25,3 +25,18 @@ else{    secondClass = class{
 // string convertors 
 var num = "23";
 console.log(parseInt(num));
+
+
+class Product1{
+    public Name:string = "";
+    public Price:number = 23;
+    public Customer:{Rating:number,Count:number}={
+        Rating:234,
+        Count:324
+    }
+    get productRating(){
+        return this.Customer.Rating
+    }
+}
+let pd = new Product1;
+console.log(pd.productRating);

@@ -33,3 +33,23 @@ else {
 // string convertors 
 var num = "23";
 console.log(parseInt(num));
+var Product1 = /** @class */ (function () {
+    function Product1() {
+        this.Name = "";
+        this.Price = 23;
+        this.Customer = {
+            Rating: 234,
+            Count: 324
+        };
+    }
+    Object.defineProperty(Product1.prototype, "productRating", {
+        get: function () {
+            return this.Customer.Rating;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    return Product1;
+}());
+var pd = new Product1;
+console.log(pd.productRating);
