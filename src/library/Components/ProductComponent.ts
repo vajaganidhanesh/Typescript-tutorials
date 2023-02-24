@@ -10,9 +10,9 @@ export class ProductComponent extends ProductTemplate {
   }
   Print() {
     console.log(
-      `Name=${this.Name}\nPrice=${this.Price}\nCategory${
-        this.CategoryName
-      }\nTotal${this.Print()}`
+      `Name = ${this.Name}\nCategory = ${this.CategoryName}\nPrice = ${
+        this.Price
+      }\nTotal = ${this.Total()}`
     );
   }
 }
