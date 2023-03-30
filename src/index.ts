@@ -37,7 +37,6 @@ if (price) {
 
 // array formation in typescript
 // union of types and by meta character
-
 let arr1: number[] = [1, 2, 3, 4, 5];
 let arr2: number[] | string[] = ["dhanesh"];
 var arr3: any[];

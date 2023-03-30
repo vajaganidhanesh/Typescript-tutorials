@@ -22,7 +22,7 @@ class Database<T> {
   }
 }
 
-let oracle = new Database<IOracle>();
+let oracle = new Database<object>();
 oracle.ConnectString = {
   UserName: "dhanesh",
   Password: "tiger",
