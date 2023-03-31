@@ -74,3 +74,4 @@ var Mannager = /** @class */ (function (_super) {
     return Mannager;
 }(Employee));
 var employee = [new Developer(), new Admin(), new Mannager()];
+console.log(employee);

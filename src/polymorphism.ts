@@ -43,3 +43,5 @@ class Mannager extends Employee {
 }
 
 let employee: Employee[] = [new Developer(), new Admin(), new Mannager()];
+
+console.log(employee);

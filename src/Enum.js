@@ -5,7 +5,7 @@ var Interface;
     Interface[Interface["value3"] = 24] = "value3";
     Interface[Interface["value4"] = 25] = "value4";
 })(Interface || (Interface = {}));
-// console.log(Interface);
+console.log(Interface);
 // String formation auto implementation is not possible
 var StringExpression;
 (function (StringExpression) {

@@ -5,7 +5,7 @@ enum Interface {
   value4,
 }
 
-// console.log(Interface);
+console.log(Interface);
 
 // String formation auto implementation is not possible
 enum StringExpression {
