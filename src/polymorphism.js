@@ -20,6 +20,7 @@ var Employee = /** @class */ (function () {
         this.Designation = "";
     }
     Employee.prototype.print = function () {
+        console.log("".concat(this.firstName, " ").concat(this.lastName, " ").concat(this.Designation));
         document.write("".concat(this.firstName, " ").concat(this.lastName, " ").concat(this.Designation));
     };
     return Employee;
@@ -72,4 +73,4 @@ var Mannager = /** @class */ (function (_super) {
     };
     return Mannager;
 }(Employee));
-var employee = [new Developer, new Admin, new Mannager];
+var employee = [new Developer(), new Admin(), new Mannager()];
